@@ -44,10 +44,10 @@ dependencies {
 
     implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
     implementation("com.google.firebase:firebase-auth-ktx")
-    implementation("com.google.android.gms:play-services-auth:21.0.0") // Google Sign-In
-    implementation("androidx.datastore:datastore-preferences:1.0.0") // DataStore
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1") // ViewModel Compose
-    implementation("androidx.navigation:navigation-compose:2.7.0") // Navigation (opsional)
+    implementation("com.google.android.gms:play-services-auth:21.0.0") 
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+    implementation("androidx.navigation:navigation-compose:2.7.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

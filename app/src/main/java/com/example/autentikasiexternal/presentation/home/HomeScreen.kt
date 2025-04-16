@@ -1,16 +1,13 @@
 package com.example.autentikasiexternal.presentation.home
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
+
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
+
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
 
@@ -43,7 +40,6 @@ fun HomeScreen(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center
             ) {
-                // Avatar / Icon
                 Icon(
                     imageVector = Icons.Default.AccountCircle,
                     contentDescription = "User Avatar",
@@ -53,7 +49,6 @@ fun HomeScreen(
                     tint = MaterialTheme.colorScheme.primary
                 )
 
-                // Welcome Text
                 Text(
                     text = "Anda login sebagai",
                     style = MaterialTheme.typography.bodyLarge,
@@ -62,14 +57,12 @@ fun HomeScreen(
 
                 Spacer(modifier = Modifier.height(8.dp))
 
-                // Name
                 Text(
                     text = name.uppercase(),
                     style = MaterialTheme.typography.headlineSmall,
                     color = MaterialTheme.colorScheme.onSurface
                 )
 
-                // Email
                 Text(
                     text = email,
                     style = MaterialTheme.typography.bodyMedium,
@@ -78,7 +71,6 @@ fun HomeScreen(
 
                 Spacer(modifier = Modifier.height(32.dp))
 
-                // Logout Button
                 Button(
                     onClick = onLogout,
                     modifier = Modifier.fillMaxWidth(),
