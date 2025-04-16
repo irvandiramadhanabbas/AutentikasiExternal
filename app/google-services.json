@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "311320033011",
+    "project_id": "autentikasiexternal-fa2b7",
+    "storage_bucket": "autentikasiexternal-fa2b7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311320033011:android:a924ea7a85ccf7b78d2986",
+        "android_client_info": {
+          "package_name": "com.example.autentikasiexternal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311320033011-qcev1n3qci31gvr1vt8mf4n09hcgchbu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.autentikasiexternal",
+            "certificate_hash": "139a5b61a52b0fcfc4e07cffb0e501d63b883314"
+          }
+        },
+        {
+          "client_id": "311320033011-a6qh5u5m2cf7g41s2sj2vdbaouft34nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAlxTpJr0rUZ1yrxJaIN_cBQ0H7Gwqh9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311320033011-a6qh5u5m2cf7g41s2sj2vdbaouft34nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
